@@ -1,0 +1,137 @@
+html {
+    padding: 5% 6% 4% 6%;
+    
+}
+body{
+    
+    padding: 5% 4% 2% 4%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 80%;
+    top: 1%;
+    padding-top: 0.6%;
+    
+}
+
+#header-img {
+    width: 4%;
+    height: 4%;
+}
+
+.nav-link {
+    padding: 2em;
+    font-size: 1.2vw;
+}
+
+img {
+    width: 60%;
+}
+
+
+#features {
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 10%;
+    justify-items: start;
+}
+
+#speed {
+    justify-self: end;
+}
+
+.info {
+    align-self: center;
+    display: grid;
+    grid-auto-rows: 15% 15%;
+
+}
+
+strong{
+    font-size: 2vw;
+}
+
+.info>p {
+    font-size: 1.4vw;
+    opacity: .8;
+}
+
+#plans{
+    
+    text-align: center;
+    padding: 10% 5% 1% 5%;
+}
+
+#frame{
+    padding: 20% 5% 1% 5%;
+    display: block;
+    text-align: center;
+}
+
+#p-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.plan-info{
+    width: 15em;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #6c63ff;
+    color: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#contact{
+    text-align: center; 
+}
+#contact>div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#form{
+    align-self: center
+}
+
+input{
+    width: 45%;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(19, 132, 245);
+    border-radius: 5px;
+    color: white;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+@media(max-width: 450px){
+    iframe{
+        width:100%;
+        height: auto;
+    }
+
+    #contact>div>img{
+        display: none;
+    }
+
+    #contact>div>form{
+        grid-column: 1/3;
+        
+    }
+}
